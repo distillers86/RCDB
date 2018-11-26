@@ -1,0 +1,23 @@
+
+header {
+	height: 5em;
+	background-color: beige;
+}
+
+header a {
+	float: right;
+	margin-left: .5em;
+	margin-right: .5em;
+	margin-top: 1.75em;
+	color: grey;
+}
+
+header img {
+	float: left;
+	width: 75px;
+}
+
+body {
+	padding: .25em .25em .25em .25em;
+	
+}
