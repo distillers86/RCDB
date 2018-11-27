@@ -5,10 +5,7 @@
 header {
 	height: 5em;
 	background-color: #343239;
-
 }
-
-
 
 header a {
 	float: right;
@@ -16,7 +13,6 @@ header a {
 	margin-right: .5em;
 	margin-top: 1.75em;
 	color: #ffffff;
-
 }
 
 header img {
@@ -40,10 +36,17 @@ div {
 	outline: 1px solid #e3e1e3;
 }
 
+div:hover {
+	outline: 1px solid lightgrey;
+
+}
+
 .resultField {
 	background-color: white;
-	padding-left: .5em;
-	padding-right: .5em;
+	border: 0px;
+	border-radius: .15em;
+	height: 2em;
+	align-content: center;
 }
 
 
@@ -63,10 +66,9 @@ div {
 	.col-m-11  {width: 91.66%}
 	.col-m-12  {width: 100%}
 
-	.hide {
-		visibility: hidden;
-	}
-
+	.hide {visibility: hidden;}
+	
+	
 }
 
 /* desktop media query */
@@ -86,8 +88,7 @@ div {
 	.col-11  {width: 91.66%}
 	.col-12  {width: 100%}
 
-	.hide {
-		visibility: visible;
-	}
+	.hide {visibility: visible;}
+
 
 }
